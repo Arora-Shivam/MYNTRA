@@ -9,7 +9,9 @@
   justify-content: space-between;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   position:fixed;
+  top: 0;
   background-color: white;
+  /* margin-bottom: 50px; */
 }
 #boxl_vam>div,#boxr_vam>div{
 cursor: pointer;
@@ -128,10 +130,10 @@ margin-top: 25px;
 .crt_vam>p{
   margin-left: -1px;
 }
-.dc_b2>p:hover{
+.dc_b2_vam>p:hover{
   font-weight: 550;
 }
-.dc_b1>button:hover{
+.dc_b1_vam>button:hover{
   border: solid rgba(255, 94, 0, 0.459) 1px;
  
   position: relative;
